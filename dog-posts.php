@@ -20,6 +20,7 @@ function rsh_create_dog_post_type() {
         'name' => __( 'Dogs' ),
         'singular_name' => __( 'Dog' ),
 				'add_new_item' => __( 'Add New Dog' ),
+				'edit_item' => __( 'Edit Dog' ),
       ),
 		'description' => 'Pages specifically for showcasing dogs',
 		'public' => true,
